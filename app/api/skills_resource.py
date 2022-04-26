@@ -31,7 +31,7 @@ class GetEmploymentCountResource(Resource):
     @skills_bp.response(status_code=200)
     def post(self, body: dict):
         """ Retrieving Job Group and Employment count """
-        reverse_data_output = data_obj.get_data_query(
+        data_output = data_obj.get_data_query(
             query=body
         )
-        return reverse_data_output
+        return data_output
