@@ -5,4 +5,4 @@ flask-smorest
 marshmallow     
 pytest
 pytest-flask
-python
+gunicorn
