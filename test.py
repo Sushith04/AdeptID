@@ -1,0 +1,5 @@
+from app.services.tests.test_skills_service import test_reverse_skill_title
+from app.services.tests.test_data_retrieval_service import test_data_retrieval
+
+test_reverse_skill_title()
+test_data_retrieval()

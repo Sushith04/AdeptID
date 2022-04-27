@@ -5,7 +5,7 @@ import string
 import json
 import csv
 
-THREADS = 100
+THREADS = 10
 DATA_LEN_BEG = 10
 DATA_LEN_END = 100
 URL = "http://127.0.0.1:5000/skills/reverse-skill-title"
@@ -59,5 +59,5 @@ def csv_to_json():
     print(f"Cities : {data_json_cities}")
 
 if __name__ == "__main__":
-    #main()
-    csv_to_json()
+    stress_test_reverse()
+    #csv_to_json()
