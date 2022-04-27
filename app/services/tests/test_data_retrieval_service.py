@@ -1,325 +1,86 @@
-from app.services import data_retrieval_service
-list_results = [
-    [{
-        "city": "New York-Newark-Jersey City, NY-NJ-PA",
-        "occ_code": "11-9031"
-    },
-    {
-        "New York-Newark-Jersey City, NY-NJ-PA": [{
-            "employment_count": 3610,
-            "job": "Education and Childcare Administrators, Preschool and Daycare"
-        }]
-    }], 
-    [{
-        "city": "New York-Newark-Jersey City, NY-NJ-PA",
-        "occ_code": "19-407"
-    },
-    {
-        "ERROR": "Please Check OCC Code"
-    }],
-    [{
-        "city": "New York-Newark-Jersey City, NY-NJ-PA",
-        "occ_code": "wrc"
-    },
-    {
-        "ERROR": "Please Check OCC Code"
-    }],
-    [{
-        "city": "New York-Newark-Jersey City, NY-NJ-PA",
-        "occ_code": ""
-    },
-    {
-        # "New York-Newark-Jersey City, NY-NJ-PA": [{
-        #     "employment_count": 3610,
-        #     "job": "Education and Childcare Administrators, Preschool and Daycare"
-        # }]
-    }],
-    [{
-        "city": "New York-Newark-Jersey City, NY-NJ-PA",
-        "occ_code": 434
-    },
-    {
-        "code": 422,
-        "errors": {
-            "json": {
-                "occ_code": [
-                    "Not a valid string."
-                    ]
-                }
-            },
-        "status": "Unprocessable Entity"
-    }],
+from app.services.data_retrieval_service import DataRetrieval
+import json
 
+data_retrieval_service_object = DataRetrieval()
+with open('tests_data_unit.json','r',encoding='UTF-8') as fp:    
+    tests_list = json.load(fp)['test_data']
 
-    [{
-        "city": "Denver-Aurora-Lakewood",
-        "occ_code": "11-9031"
-    },
-    {
-        "Denver-Aurora-Lakewood, CO": [{
-            "employment_count": 400,
-            "job": "Education and Childcare Administrators, Preschool and Daycare"
-        }],
-        "New York-Newark-Jersey City, NY-NJ-PA": [{
-                "employment_count": 3610,
-                "job": "Education and Childcare Administrators, Preschool and Daycare"
-        }],
-        "San Francisco-Oakland-Hayward, CA": [{
-            "employment_count": 1610,
-            "job": "Education and Childcare Administrators, Preschool and Daycare"
-        }]
-    }],
-    [{
-        "city": "Denver-Aurora-Lakewood",
-        "occ_code": "19-407"
-    },
-    {
-        "ERROR": "Please Check the Inputs"
-    }],
-    [{
-        "city": "Denver-Aurora-Lakewood",
-        "occ_code": "wrc"
-    },
-    {
-        "ERROR": "Please Check the Inputs"
-    }],
-    [{
-        "city": "Denver-Aurora-Lakewood",
-        "occ_code": ""
-    },
-    {
-        "ERROR": "Please Check the Inputs"
-    }],
-    [{
-        "city": "Denver-Aurora-Lakewood",
-        "occ_code": 434
-    },
-    {
-        "code": 422,
-        "errors": {
-            "json": {
-                "occ_code": [
-                    "Not a valid string."
-                    ]
-                }
-            },
-        "status": "Unprocessable Entity"
-    }],
+def send_req(query: dict) -> None:
+    return data_retrieval_service_object.get_data_query(query)
+       
+        
+def test_case_d1():
+    assert send_req(tests_list[0][0]) == tests_list[0][1]
 
+def test_case_d2():
+    assert send_req(tests_list[1][0]) == tests_list[1][1]
 
+def test_case_d3():
+    assert send_req(tests_list[2][0]) == tests_list[2][1]
 
-    [{
-        "city": "sverv",
-        "occ_code": "11-9031"
-    },
-    {
-        "Denver-Aurora-Lakewood, CO": [{
-            "employment_count": 400,
-            "job": "Education and Childcare Administrators, Preschool and Daycare"
-        }],
-        "New York-Newark-Jersey City, NY-NJ-PA": [{
-                "employment_count": 3610,
-                "job": "Education and Childcare Administrators, Preschool and Daycare"
-        }],
-        "San Francisco-Oakland-Hayward, CA": [{
-            "employment_count": 1610,
-            "job": "Education and Childcare Administrators, Preschool and Daycare"
-        }]
-    }],
-    [{
-        "city": "sverv",
-        "occ_code": "19-407"
-    },
-    {
-        "ERROR": "Please Check the Inputs"
-    }],
-    [{
-        "city": "sverv",
-        "occ_code": "wrc"
-    },
-    {
-        "ERROR": "Please Check the Inputs"
-    }],
-    [{
-        "city": "sverv",
-        "occ_code": ""
-    },
-    {
-        "ERROR": "Please Check the Inputs"
-    }],
-    [{
-        "city": "sverv",
-        "occ_code": 434
-    },
-    {
-        "code": 422,
-        "errors": {
-            "json": {
-                "occ_code": [
-                    "Not a valid string."
-                    ]
-                }
-            },
-        "status": "Unprocessable Entity"
-    }],
+def test_case_d4():
+    assert send_req(tests_list[3][0]) == tests_list[3][1]
 
+def test_case_d5():
+    assert send_req(tests_list[4][0]) == tests_list[4][1]
 
+def test_case_d6():
+    assert send_req(tests_list[5][0]) == tests_list[5][1]
 
-    [{
-        "city": "",
-        "occ_code": "11-9031"
-    },
-    {
-        "Denver-Aurora-Lakewood, CO": [{
-            "employment_count": 400,
-            "job": "Education and Childcare Administrators, Preschool and Daycare"
-        }],
-        "New York-Newark-Jersey City, NY-NJ-PA": [{
-                "employment_count": 3610,
-                "job": "Education and Childcare Administrators, Preschool and Daycare"
-        }],
-        "San Francisco-Oakland-Hayward, CA": [{
-            "employment_count": 1610,
-            "job": "Education and Childcare Administrators, Preschool and Daycare"
-        }]
-    }],
-    [{
-        "city": "",
-        "occ_code": "19-407"
-    },
-    {
-        "ERROR": "Please Check the Inputs"
-    }],
-    [{
-        "city": "",
-        "occ_code": "wrc"
-    },
-    {
-        "ERROR": "Please Check the Inputs"
-    }],
-    [{
-        "city": "",
-        "occ_code": ""
-    },
-    {
-        "ERROR": "Please Check the Inputs"
-    }],
-    [{
-        "city": "",
-        "occ_code": 434
-    },
-    {
-        "code": 422,
-        "errors": {
-            "json": {
-                "occ_code": [
-                    "Not a valid string."
-                    ]
-                }
-            },
-        "status": "Unprocessable Entity"
-    }],
+def test_case_d7():
+    assert send_req(tests_list[6][0]) == tests_list[6][1]
 
+def test_case_d8():
+    assert send_req(tests_list[7][0]) == tests_list[7][1]
 
+def test_case_d9():
+    assert send_req(tests_list[8][0]) == tests_list[8][1]
 
-    [{
-        "city": 34534,
-        "occ_code": "11-9031"
-    },
-    {
-        "code": 422,
-        "errors": {
-            "json": {
-                "city": [
-                    "Not a valid string."
-                    ]
-                }
-            },
-        "status": "Unprocessable Entity"
-    }],
-    [{
-        "city": 34534,
-        "occ_code": "19-407"
-    },
-    {
-        "code": 422,
-        "errors": {
-            "json": {
-                "city": [
-                    "Not a valid string."
-                    ]
-                }
-            },
-        "status": "Unprocessable Entity"
-    }],
-    [{
-        "city": 34534,
-        "occ_code": "wrc"
-    },
-    {
-        "code": 422,
-        "errors": {
-            "json": {
-                "city": [
-                    "Not a valid string."
-                    ]
-                }
-            },
-        "status": "Unprocessable Entity"
-    }],
-    [{
-        "city": 34534,
-        "occ_code": ""
-    },
+def test_case_d10():
+    assert send_req(tests_list[9][0]) == tests_list[9][1]
 
-    {
-        "code": 422,
-        "errors": {
-            "json": {
-                "city": [
-                    "Not a valid string."
-                    ]
-                }
-            },
-        "status": "Unprocessable Entity"
-    }],
-    [{
-        "city": 34534,
-        "occ_code": 434
-    },
-    {
-        "code": 422,
-        "errors": {
-            "json": {
-                "city": [
-                    "Not a valid string."
-                    ]
-                }
-            },
-        "status": "Unprocessable Entity"
-    }]
-]
-def send_req(query) -> None:
-    actual = data_retrieval_service.DataRetrieval.get_data_query(query)
-    # excepted = list_results.
-    # assert actual == expected
-# def send_req(send_text) -> None:
-#     actual = skills_service.reverse_skill_title(send_text)
-#     data_rev = send_text[::-1].lower()
-#     data_json = {"skill_title" : send_text, "reversed_skill_title": data_rev}
-#     assert actual==data_json
+def test_case_d11():
+    assert send_req(tests_list[10][0]) == tests_list[10][1]
 
-def test_data_retrieval():
-    count = 0
-    error_text = "'int' object is not subscriptable"
-    list_city = ["New York-Newark-Jersey City, NY-NJ-PA", "Denver-Aurora-Lakewood", "sverv", "", 34534]
-    list_occ = ["11-9031", "19-407", "wrc", "", 434]
-    for m in list_city:
-        for n in list_occ:
-            try:
-                send_req({"city": list_results, "occ_code": n})
-                count = count+1
-                print("Test", count, "passed")
-            except Exception as error:
-                assert error_text==str(error)
-                print("Error test passed")
+def test_case_d12():
+    assert send_req(tests_list[11][0]) == tests_list[11][1]
+
+def test_case_d13():
+    assert send_req(tests_list[12][0]) == tests_list[12][1]
+
+def test_case_d14():
+    assert send_req(tests_list[13][0]) == tests_list[13][1]
+
+def test_case_d15():
+    assert send_req(tests_list[14][0]) == tests_list[14][1]
+
+def test_case_d16():
+    assert send_req(tests_list[15][0]) == tests_list[15][1]
+
+def test_case_d17():
+    assert send_req(tests_list[16][0]) == tests_list[16][1]
+
+def test_case_d18():
+    assert send_req(tests_list[17][0]) == tests_list[17][1]
+
+def test_case_d19():
+    assert send_req(tests_list[18][0]) == tests_list[18][1]
+
+def test_case_d20():
+    assert send_req(tests_list[19][0]) == tests_list[19][1]
+
+def test_case_d21():
+    assert send_req(tests_list[20][0]) == tests_list[20][1]
+
+def test_case_d22():
+    assert send_req(tests_list[21][0]) == tests_list[21][1]
+
+def test_case_d23():
+    assert send_req(tests_list[22][0]) == tests_list[22][1]
+
+def test_case_d24():
+    assert send_req(tests_list[23][0]) == tests_list[23][1]
+
+def test_case_d25():
+    assert send_req(tests_list[24][0]) == tests_list[24][1]
+

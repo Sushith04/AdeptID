@@ -74,7 +74,7 @@ class DataRetrieval(object):
             occ_check = self.check_occ(occ_value)
             
             #Raises an exception if either of the city input or the OCC_Code input is empty or not valid
-            if(not city_check and not occ_check):
+            if(type(city_value)!= str or type(occ_value)!= str or not city_check and not occ_check):
                 raise Exception("Please Check the Inputs")
             #Returns data related to the city as the entered OCC_Code value is empty
             elif(city_check and occ_value == ''):
@@ -92,3 +92,4 @@ class DataRetrieval(object):
         #Catches the exceptions and returns them
         except Exception as _e:
             return {"ERROR" : str(_e)}
+        return ret

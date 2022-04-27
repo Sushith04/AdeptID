@@ -1,0 +1,3290 @@
+{
+  "test_data": [
+    [
+      {
+        "city": "New York-Newark-Jersey City, NY-NJ-PA",
+        "occ_code": "11-9031"
+      },
+      {
+        "New York-Newark-Jersey City, NY-NJ-PA": [
+          {
+            "employment_count": 3610,
+            "job": "Education and Childcare Administrators, Preschool and Daycare"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "city": "New York-Newark-Jersey City, NY-NJ-PA",
+        "occ_code": "19-407"
+      },
+      {
+        "ERROR": "Please Check OCC Code"
+      }
+    ],
+    [
+      {
+        "city": "New York-Newark-Jersey City, NY-NJ-PA",
+        "occ_code": "wrc"
+      },
+      {
+        "ERROR": "Please Check OCC Code"
+      }
+    ],
+    [
+      {
+        "city": "New York-Newark-Jersey City, NY-NJ-PA",
+        "occ_code": ""
+      },
+      {
+    "New York-Newark-Jersey City, NY-NJ-PA": [
+        {
+            "employment_count": 6430,
+            "job": "Chief Executives"
+        },
+        {
+            "employment_count": 162730,
+            "job": "General and Operations Managers"
+        },
+        {
+            "employment_count": 2930,
+            "job": "Legislators"
+        },
+        {
+            "employment_count": 7830,
+            "job": "Advertising and Promotions Managers"
+        },
+        {
+            "employment_count": 28240,
+            "job": "Marketing Managers"
+        },
+        {
+            "employment_count": 32090,
+            "job": "Sales Managers"
+        },
+        {
+            "employment_count": 7240,
+            "job": "Public Relations and Fundraising Managers"
+        },
+        {
+            "employment_count": 25070,
+            "job": "Administrative Services and Facilities Managers"
+        },
+        {
+            "employment_count": 35550,
+            "job": "Computer and Information Systems Managers"
+        },
+        {
+            "employment_count": 56290,
+            "job": "Financial Managers"
+        },
+        {
+            "employment_count": 6510,
+            "job": "Industrial Production Managers"
+        },
+        {
+            "employment_count": 4580,
+            "job": "Purchasing Managers"
+        },
+        {
+            "employment_count": 7310,
+            "job": "Transportation, Storage, and Distribution Managers"
+        },
+        {
+            "employment_count": 1650,
+            "job": "Compensation and Benefits Managers"
+        },
+        {
+            "employment_count": 12020,
+            "job": "Human Resources Managers"
+        },
+        {
+            "employment_count": 3230,
+            "job": "Training and Development Managers"
+        },
+        {
+            "employment_count": 80,
+            "job": "Farmers, Ranchers, and Other Agricultural Managers"
+        },
+        {
+            "employment_count": 13990,
+            "job": "Construction Managers"
+        },
+        {
+            "employment_count": 3610,
+            "job": "Education and Childcare Administrators, Preschool and Daycare"
+        },
+        {
+            "employment_count": 22290,
+            "job": "Education Administrators, Kindergarten through Secondary"
+        },
+        {
+            "employment_count": 0,
+            "job": "Education Administrators, Postsecondary"
+        },
+        {
+            "employment_count": 2210,
+            "job": "Education Administrators, All Other"
+        },
+        {
+            "employment_count": 6970,
+            "job": "Architectural and Engineering Managers"
+        },
+        {
+            "employment_count": 9920,
+            "job": "Food Service Managers"
+        },
+        {
+            "employment_count": 810,
+            "job": "Lodging Managers"
+        },
+        {
+            "employment_count": 28490,
+            "job": "Medical and Health Services Managers"
+        },
+        {
+            "employment_count": 5150,
+            "job": "Natural Sciences Managers"
+        },
+        {
+            "employment_count": 620,
+            "job": "Postmasters and Mail Superintendents"
+        },
+        {
+            "employment_count": 11160,
+            "job": "Property, Real Estate, and Community Association Managers"
+        },
+        {
+            "employment_count": 11700,
+            "job": "Social and Community Service Managers"
+        },
+        {
+            "employment_count": 580,
+            "job": "Emergency Management Directors"
+        },
+        {
+            "employment_count": 610,
+            "job": "Funeral Home Managers"
+        },
+        {
+            "employment_count": 23320,
+            "job": "Personal Service Managers, All Other; Entertainment and Recreation Managers, Except Gambling; and Managers, All Other"
+        },
+        {
+            "employment_count": 3510,
+            "job": "Agents and Business Managers of Artists, Performers, and Athletes"
+        },
+        {
+            "employment_count": 27290,
+            "job": "Buyers and Purchasing Agents"
+        },
+        {
+            "employment_count": 18780,
+            "job": "Claims Adjusters, Examiners, and Investigators"
+        },
+        {
+            "employment_count": 950,
+            "job": "Insurance Appraisers, Auto Damage"
+        },
+        {
+            "employment_count": 22930,
+            "job": "Compliance Officers"
+        },
+        {
+            "employment_count": 10390,
+            "job": "Cost Estimators"
+        },
+        {
+            "employment_count": 44850,
+            "job": "Human Resources Specialists"
+        },
+        {
+            "employment_count": 8360,
+            "job": "Labor Relations Specialists"
+        },
+        {
+            "employment_count": 9110,
+            "job": "Logisticians"
+        },
+        {
+            "employment_count": 54650,
+            "job": "Management Analysts"
+        },
+        {
+            "employment_count": 10960,
+            "job": "Meeting, Convention, and Event Planners"
+        },
+        {
+            "employment_count": 7040,
+            "job": "Fundraisers"
+        },
+        {
+            "employment_count": 9890,
+            "job": "Compensation, Benefits, and Job Analysis Specialists"
+        },
+        {
+            "employment_count": 20990,
+            "job": "Training and Development Specialists"
+        },
+        {
+            "employment_count": 75110,
+            "job": "Market Research Analysts and Marketing Specialists"
+        },
+        {
+            "employment_count": 71210,
+            "job": "Project Management Specialists and Business Operations Specialists, All Other"
+        },
+        {
+            "employment_count": 120490,
+            "job": "Accountants and Auditors"
+        },
+        {
+            "employment_count": 2200,
+            "job": "Property Appraisers and Assessors"
+        },
+        {
+            "employment_count": 3230,
+            "job": "Budget Analysts"
+        },
+        {
+            "employment_count": 8440,
+            "job": "Credit Analysts"
+        },
+        {
+            "employment_count": 26900,
+            "job": "Personal Financial Advisors"
+        },
+        {
+            "employment_count": 7700,
+            "job": "Insurance Underwriters"
+        },
+        {
+            "employment_count": 11730,
+            "job": "Financial Examiners"
+        },
+        {
+            "employment_count": 2300,
+            "job": "Credit Counselors"
+        },
+        {
+            "employment_count": 13210,
+            "job": "Loan Officers"
+        },
+        {
+            "employment_count": 3360,
+            "job": "Tax Examiners and Collectors, and Revenue Agents"
+        },
+        {
+            "employment_count": 4660,
+            "job": "Tax Preparers"
+        },
+        {
+            "employment_count": 63920,
+            "job": "Financial and Investment Analysts, Financial Risk Specialists, and Financial Specialists, All Other"
+        },
+        {
+            "employment_count": 44210,
+            "job": "Computer Systems Analysts"
+        },
+        {
+            "employment_count": 8850,
+            "job": "Information Security Analysts"
+        },
+        {
+            "employment_count": 1800,
+            "job": "Computer and Information Research Scientists"
+        },
+        {
+            "employment_count": 13450,
+            "job": "Computer Network Support Specialists"
+        },
+        {
+            "employment_count": 42840,
+            "job": "Computer User Support Specialists"
+        },
+        {
+            "employment_count": 10120,
+            "job": "Computer Network Architects"
+        },
+        {
+            "employment_count": 27140,
+            "job": "Network and Computer Systems Administrators"
+        },
+        {
+            "employment_count": 8890,
+            "job": "Database Administrators and Architects"
+        },
+        {
+            "employment_count": 15070,
+            "job": "Computer Programmers"
+        },
+        {
+            "employment_count": 100470,
+            "job": "Software Developers and Software Quality Assurance Analysts and Testers"
+        },
+        {
+            "employment_count": 13460,
+            "job": "Web Developers and Digital Interface Designers"
+        },
+        {
+            "employment_count": 12150,
+            "job": "Computer Occupations, All Other"
+        },
+        {
+            "employment_count": 2350,
+            "job": "Actuaries"
+        },
+        {
+            "employment_count": 230,
+            "job": "Mathematicians"
+        },
+        {
+            "employment_count": 7370,
+            "job": "Operations Research Analysts"
+        },
+        {
+            "employment_count": 1700,
+            "job": "Statisticians"
+        },
+        {
+            "employment_count": 2690,
+            "job": "Data Scientists and Mathematical Science Occupations, All Other"
+        },
+        {
+            "employment_count": 11790,
+            "job": "Architects, Except Landscape and Naval"
+        },
+        {
+            "employment_count": 1460,
+            "job": "Landscape Architects"
+        },
+        {
+            "employment_count": 180,
+            "job": "Cartographers and Photogrammetrists"
+        },
+        {
+            "employment_count": 2050,
+            "job": "Surveyors"
+        },
+        {
+            "employment_count": 0,
+            "job": "Aerospace Engineers"
+        },
+        {
+            "employment_count": 560,
+            "job": "Bioengineers and Biomedical Engineers"
+        },
+        {
+            "employment_count": 830,
+            "job": "Chemical Engineers"
+        },
+        {
+            "employment_count": 15860,
+            "job": "Civil Engineers"
+        },
+        {
+            "employment_count": 1830,
+            "job": "Computer Hardware Engineers"
+        },
+        {
+            "employment_count": 7980,
+            "job": "Electrical Engineers"
+        },
+        {
+            "employment_count": 4150,
+            "job": "Electronics Engineers, Except Computer"
+        },
+        {
+            "employment_count": 2270,
+            "job": "Environmental Engineers"
+        },
+        {
+            "employment_count": 1540,
+            "job": "Health and Safety Engineers, Except Mining Safety Engineers and Inspectors"
+        },
+        {
+            "employment_count": 7730,
+            "job": "Industrial Engineers"
+        },
+        {
+            "employment_count": 270,
+            "job": "Marine Engineers and Naval Architects"
+        },
+        {
+            "employment_count": 650,
+            "job": "Materials Engineers"
+        },
+        {
+            "employment_count": 8370,
+            "job": "Mechanical Engineers"
+        },
+        {
+            "employment_count": 5340,
+            "job": "Engineers, All Other"
+        },
+        {
+            "employment_count": 6860,
+            "job": "Architectural and Civil Drafters"
+        },
+        {
+            "employment_count": 1060,
+            "job": "Electrical and Electronics Drafters"
+        },
+        {
+            "employment_count": 1940,
+            "job": "Mechanical Drafters"
+        },
+        {
+            "employment_count": 570,
+            "job": "Drafters, All Other"
+        },
+        {
+            "employment_count": 0,
+            "job": "Aerospace Engineering and Operations Technologists and Technicians"
+        },
+        {
+            "employment_count": 1820,
+            "job": "Civil Engineering Technologists and Technicians"
+        },
+        {
+            "employment_count": 4260,
+            "job": "Electrical and Electronic Engineering Technologists and Technicians"
+        },
+        {
+            "employment_count": 220,
+            "job": "Electro-Mechanical and Mechatronics Technologists and Technicians"
+        },
+        {
+            "employment_count": 480,
+            "job": "Environmental Engineering Technologists and Technicians"
+        },
+        {
+            "employment_count": 1410,
+            "job": "Industrial Engineering Technologists and Technicians"
+        },
+        {
+            "employment_count": 940,
+            "job": "Mechanical Engineering Technologists and Technicians"
+        },
+        {
+            "employment_count": 810,
+            "job": "Surveying and Mapping Technicians"
+        },
+        {
+            "employment_count": 1940,
+            "job": "Calibration Technologists and Technicians and Engineering Technologists and Technicians, Except Drafters, All Other"
+        },
+        {
+            "employment_count": 1340,
+            "job": "Food Scientists and Technologists"
+        },
+        {
+            "employment_count": 100,
+            "job": "Soil and Plant Scientists"
+        },
+        {
+            "employment_count": 7150,
+            "job": "Biochemists and Biophysicists"
+        },
+        {
+            "employment_count": 850,
+            "job": "Microbiologists"
+        },
+        {
+            "employment_count": 210,
+            "job": "Zoologists and Wildlife Biologists"
+        },
+        {
+            "employment_count": 760,
+            "job": "Biological Scientists, All Other"
+        },
+        {
+            "employment_count": 360,
+            "job": "Conservation Scientists"
+        },
+        {
+            "employment_count": 80,
+            "job": "Foresters"
+        },
+        {
+            "employment_count": 250,
+            "job": "Epidemiologists"
+        },
+        {
+            "employment_count": 8140,
+            "job": "Medical Scientists, Except Epidemiologists"
+        },
+        {
+            "employment_count": 330,
+            "job": "Life Scientists, All Other"
+        },
+        {
+            "employment_count": 1030,
+            "job": "Physicists"
+        },
+        {
+            "employment_count": 520,
+            "job": "Atmospheric and Space Scientists"
+        },
+        {
+            "employment_count": 8250,
+            "job": "Chemists"
+        },
+        {
+            "employment_count": 260,
+            "job": "Materials Scientists"
+        },
+        {
+            "employment_count": 4040,
+            "job": "Environmental Scientists and Specialists, Including Health"
+        },
+        {
+            "employment_count": 480,
+            "job": "Geoscientists, Except Hydrologists and Geographers"
+        },
+        {
+            "employment_count": 170,
+            "job": "Hydrologists"
+        },
+        {
+            "employment_count": 630,
+            "job": "Physical Scientists, All Other"
+        },
+        {
+            "employment_count": 800,
+            "job": "Economists"
+        },
+        {
+            "employment_count": 570,
+            "job": "Survey Researchers"
+        },
+        {
+            "employment_count": 10320,
+            "job": "Clinical, Counseling, and School Psychologists"
+        },
+        {
+            "employment_count": 470,
+            "job": "Psychologists, All Other"
+        },
+        {
+            "employment_count": 140,
+            "job": "Sociologists"
+        },
+        {
+            "employment_count": 1360,
+            "job": "Urban and Regional Planners"
+        },
+        {
+            "employment_count": 80,
+            "job": "Anthropologists and Archeologists"
+        },
+        {
+            "employment_count": 110,
+            "job": "Historians"
+        },
+        {
+            "employment_count": 70,
+            "job": "Political Scientists"
+        },
+        {
+            "employment_count": 1830,
+            "job": "Social Scientists and Related Workers, All Other"
+        },
+        {
+            "employment_count": 360,
+            "job": "Agricultural and Food Science Technicians"
+        },
+        {
+            "employment_count": 2740,
+            "job": "Biological Technicians"
+        },
+        {
+            "employment_count": 4460,
+            "job": "Chemical Technicians"
+        },
+        {
+            "employment_count": 1890,
+            "job": "Environmental Science and Protection Technicians, Including Health"
+        },
+        {
+            "employment_count": 380,
+            "job": "Geological and Hydrologic Technicians"
+        },
+        {
+            "employment_count": 90,
+            "job": "Nuclear Technicians"
+        },
+        {
+            "employment_count": 3870,
+            "job": "Social Science Research Assistants"
+        },
+        {
+            "employment_count": 0,
+            "job": "Forest and Conservation Technicians"
+        },
+        {
+            "employment_count": 670,
+            "job": "Forensic Science Technicians"
+        },
+        {
+            "employment_count": 7230,
+            "job": "Life, Physical, and Social Science Technicians, All Other"
+        },
+        {
+            "employment_count": 3510,
+            "job": "Occupational Health and Safety Specialists"
+        },
+        {
+            "employment_count": 950,
+            "job": "Occupational Health and Safety Technicians"
+        },
+        {
+            "employment_count": 22420,
+            "job": "Educational, Guidance, and Career Counselors and Advisors"
+        },
+        {
+            "employment_count": 3760,
+            "job": "Marriage and Family Therapists"
+        },
+        {
+            "employment_count": 4860,
+            "job": "Rehabilitation Counselors"
+        },
+        {
+            "employment_count": 16570,
+            "job": "Substance Abuse, Behavioral Disorder, and Mental Health Counselors"
+        },
+        {
+            "employment_count": 1210,
+            "job": "Counselors, All Other"
+        },
+        {
+            "employment_count": 24950,
+            "job": "Child, Family, and School Social Workers"
+        },
+        {
+            "employment_count": 14180,
+            "job": "Healthcare Social Workers"
+        },
+        {
+            "employment_count": 9040,
+            "job": "Mental Health and Substance Abuse Social Workers"
+        },
+        {
+            "employment_count": 3330,
+            "job": "Social Workers, All Other"
+        },
+        {
+            "employment_count": 2960,
+            "job": "Health Education Specialists"
+        },
+        {
+            "employment_count": 4140,
+            "job": "Probation Officers and Correctional Treatment Specialists"
+        },
+        {
+            "employment_count": 42660,
+            "job": "Social and Human Service Assistants"
+        },
+        {
+            "employment_count": 5630,
+            "job": "Community Health Workers"
+        },
+        {
+            "employment_count": 13970,
+            "job": "Community and Social Service Specialists, All Other"
+        },
+        {
+            "employment_count": 5010,
+            "job": "Clergy"
+        },
+        {
+            "employment_count": 3970,
+            "job": "Directors, Religious Activities and Education"
+        },
+        {
+            "employment_count": 940,
+            "job": "Religious Workers, All Other"
+        },
+        {
+            "employment_count": 82110,
+            "job": "Lawyers"
+        },
+        {
+            "employment_count": 510,
+            "job": "Judicial Law Clerks"
+        },
+        {
+            "employment_count": 1290,
+            "job": "Administrative Law Judges, Adjudicators, and Hearing Officers"
+        },
+        {
+            "employment_count": 430,
+            "job": "Arbitrators, Mediators, and Conciliators"
+        },
+        {
+            "employment_count": 1640,
+            "job": "Judges, Magistrate Judges, and Magistrates"
+        },
+        {
+            "employment_count": 29030,
+            "job": "Paralegals and Legal Assistants"
+        },
+        {
+            "employment_count": 1530,
+            "job": "Title Examiners, Abstractors, and Searchers"
+        },
+        {
+            "employment_count": 2110,
+            "job": "Legal Support Workers, All Other"
+        },
+        {
+            "employment_count": 7860,
+            "job": "Business Teachers, Postsecondary"
+        },
+        {
+            "employment_count": 2860,
+            "job": "Computer Science Teachers, Postsecondary"
+        },
+        {
+            "employment_count": 4050,
+            "job": "Mathematical Science Teachers, Postsecondary"
+        },
+        {
+            "employment_count": 870,
+            "job": "Architecture Teachers, Postsecondary"
+        },
+        {
+            "employment_count": 1980,
+            "job": "Engineering Teachers, Postsecondary"
+        },
+        {
+            "employment_count": 150,
+            "job": "Agricultural Sciences Teachers, Postsecondary"
+        },
+        {
+            "employment_count": 4310,
+            "job": "Biological Science Teachers, Postsecondary"
+        },
+        {
+            "employment_count": 860,
+            "job": "Atmospheric, Earth, Marine, and Space Sciences Teachers, Postsecondary"
+        },
+        {
+            "employment_count": 2150,
+            "job": "Chemistry Teachers, Postsecondary"
+        },
+        {
+            "employment_count": 580,
+            "job": "Environmental Science Teachers, Postsecondary"
+        },
+        {
+            "employment_count": 1150,
+            "job": "Physics Teachers, Postsecondary"
+        },
+        {
+            "employment_count": 660,
+            "job": "Anthropology and Archeology Teachers, Postsecondary"
+        },
+        {
+            "employment_count": 1230,
+            "job": "Area, Ethnic, and Cultural Studies Teachers, Postsecondary"
+        },
+        {
+            "employment_count": 1520,
+            "job": "Economics Teachers, Postsecondary"
+        },
+        {
+            "employment_count": 90,
+            "job": "Geography Teachers, Postsecondary"
+        },
+        {
+            "employment_count": 1360,
+            "job": "Political Science Teachers, Postsecondary"
+        },
+        {
+            "employment_count": 3730,
+            "job": "Psychology Teachers, Postsecondary"
+        },
+        {
+            "employment_count": 1450,
+            "job": "Sociology Teachers, Postsecondary"
+        },
+        {
+            "employment_count": 2570,
+            "job": "Social Sciences Teachers, Postsecondary, All Other"
+        },
+        {
+            "employment_count": 18170,
+            "job": "Health Specialties Teachers, Postsecondary"
+        },
+        {
+            "employment_count": 4460,
+            "job": "Nursing Instructors and Teachers, Postsecondary"
+        },
+        {
+            "employment_count": 5190,
+            "job": "Education Teachers, Postsecondary"
+        },
+        {
+            "employment_count": 300,
+            "job": "Library Science Teachers, Postsecondary"
+        },
+        {
+            "employment_count": 900,
+            "job": "Criminal Justice and Law Enforcement Teachers, Postsecondary"
+        },
+        {
+            "employment_count": 2840,
+            "job": "Law Teachers, Postsecondary"
+        },
+        {
+            "employment_count": 2500,
+            "job": "Social Work Teachers, Postsecondary"
+        },
+        {
+            "employment_count": 10000,
+            "job": "Art, Drama, and Music Teachers, Postsecondary"
+        },
+        {
+            "employment_count": 2920,
+            "job": "Communications Teachers, Postsecondary"
+        },
+        {
+            "employment_count": 7470,
+            "job": "English Language and Literature Teachers, Postsecondary"
+        },
+        {
+            "employment_count": 2050,
+            "job": "Foreign Language and Literature Teachers, Postsecondary"
+        },
+        {
+            "employment_count": 1740,
+            "job": "History Teachers, Postsecondary"
+        },
+        {
+            "employment_count": 2350,
+            "job": "Philosophy and Religion Teachers, Postsecondary"
+        },
+        {
+            "employment_count": 580,
+            "job": "Recreation and Fitness Studies Teachers, Postsecondary"
+        },
+        {
+            "employment_count": 4680,
+            "job": "Career/Technical Education Teachers, Postsecondary"
+        },
+        {
+            "employment_count": 4040,
+            "job": "Postsecondary Teachers, All Other"
+        },
+        {
+            "employment_count": 29960,
+            "job": "Preschool Teachers, Except Special Education"
+        },
+        {
+            "employment_count": 7770,
+            "job": "Kindergarten Teachers, Except Special Education"
+        },
+        {
+            "employment_count": 92620,
+            "job": "Elementary School Teachers, Except Special Education"
+        },
+        {
+            "employment_count": 48650,
+            "job": "Middle School Teachers, Except Special and Career/Technical Education"
+        },
+        {
+            "employment_count": 880,
+            "job": "Career/Technical Education Teachers, Middle School"
+        },
+        {
+            "employment_count": 72360,
+            "job": "Secondary School Teachers, Except Special and Career/Technical Education"
+        },
+        {
+            "employment_count": 3270,
+            "job": "Career/Technical Education Teachers, Secondary School"
+        },
+        {
+            "employment_count": 5220,
+            "job": "Special Education Teachers, Preschool"
+        },
+        {
+            "employment_count": 22710,
+            "job": "Special Education Teachers, Kindergarten and Elementary School"
+        },
+        {
+            "employment_count": 13460,
+            "job": "Special Education Teachers, Middle School"
+        },
+        {
+            "employment_count": 16510,
+            "job": "Special Education Teachers, Secondary School"
+        },
+        {
+            "employment_count": 3370,
+            "job": "Special Education Teachers, All Other"
+        },
+        {
+            "employment_count": 2940,
+            "job": "Adult Basic Education, Adult Secondary Education, and English as a Second Language Instructors"
+        },
+        {
+            "employment_count": 33050,
+            "job": "Self-Enrichment Teachers"
+        },
+        {
+            "employment_count": 30340,
+            "job": "Substitute Teachers, Short-Term"
+        },
+        {
+            "employment_count": 20620,
+            "job": "Tutors and Teachers and Instructors, All Other"
+        },
+        {
+            "employment_count": 1260,
+            "job": "Archivists"
+        },
+        {
+            "employment_count": 1390,
+            "job": "Curators"
+        },
+        {
+            "employment_count": 1230,
+            "job": "Museum Technicians and Conservators"
+        },
+        {
+            "employment_count": 12030,
+            "job": "Librarians and Media Collections Specialists"
+        },
+        {
+            "employment_count": 7570,
+            "job": "Library Technicians"
+        },
+        {
+            "employment_count": 110,
+            "job": "Farm and Home Management Educators"
+        },
+        {
+            "employment_count": 15350,
+            "job": "Instructional Coordinators"
+        },
+        {
+            "employment_count": 6670,
+            "job": "Teaching Assistants, Postsecondary"
+        },
+        {
+            "employment_count": 127740,
+            "job": "Teaching Assistants, Except Postsecondary"
+        },
+        {
+            "employment_count": 2360,
+            "job": "Educational Instruction and Library Workers, All Other"
+        },
+        {
+            "employment_count": 8970,
+            "job": "Art Directors"
+        },
+        {
+            "employment_count": 100,
+            "job": "Craft Artists"
+        },
+        {
+            "employment_count": 1580,
+            "job": "Fine Artists, Including Painters, Sculptors, and Illustrators"
+        },
+        {
+            "employment_count": 2700,
+            "job": "Special Effects Artists and Animators"
+        },
+        {
+            "employment_count": 250,
+            "job": "Artists and Related Workers, All Other"
+        },
+        {
+            "employment_count": 2570,
+            "job": "Commercial and Industrial Designers"
+        },
+        {
+            "employment_count": 8570,
+            "job": "Fashion Designers"
+        },
+        {
+            "employment_count": 2030,
+            "job": "Floral Designers"
+        },
+        {
+            "employment_count": 21840,
+            "job": "Graphic Designers"
+        },
+        {
+            "employment_count": 5570,
+            "job": "Interior Designers"
+        },
+        {
+            "employment_count": 7000,
+            "job": "Merchandise Displayers and Window Trimmers"
+        },
+        {
+            "employment_count": 2180,
+            "job": "Set and Exhibit Designers"
+        },
+        {
+            "employment_count": 1020,
+            "job": "Designers, All Other"
+        },
+        {
+            "employment_count": 7000,
+            "job": "Actors"
+        },
+        {
+            "employment_count": 25900,
+            "job": "Producers and Directors"
+        },
+        {
+            "employment_count": 560,
+            "job": "Athletes and Sports Competitors"
+        },
+        {
+            "employment_count": 13710,
+            "job": "Coaches and Scouts"
+        },
+        {
+            "employment_count": 740,
+            "job": "Umpires, Referees, and Other Sports Officials"
+        },
+        {
+            "employment_count": 1590,
+            "job": "Dancers"
+        },
+        {
+            "employment_count": 1940,
+            "job": "Music Directors and Composers"
+        },
+        {
+            "employment_count": 6740,
+            "job": "Musicians and Singers"
+        },
+        {
+            "employment_count": 890,
+            "job": "Miscellaneous Entertainers and Performers, Sports and Related Workers"
+        },
+        {
+            "employment_count": 1170,
+            "job": "Broadcast Announcers and Radio Disc Jockeys"
+        },
+        {
+            "employment_count": 5760,
+            "job": "News Analysts, Reporters, and Journalists"
+        },
+        {
+            "employment_count": 24250,
+            "job": "Public Relations Specialists"
+        },
+        {
+            "employment_count": 20700,
+            "job": "Editors"
+        },
+        {
+            "employment_count": 2910,
+            "job": "Technical Writers"
+        },
+        {
+            "employment_count": 8010,
+            "job": "Writers and Authors"
+        },
+        {
+            "employment_count": 3270,
+            "job": "Interpreters and Translators"
+        },
+        {
+            "employment_count": 1030,
+            "job": "Court Reporters and Simultaneous Captioners"
+        },
+        {
+            "employment_count": 0,
+            "job": "Media and Communication Workers, All Other"
+        },
+        {
+            "employment_count": 7940,
+            "job": "Audio and Video Technicians"
+        },
+        {
+            "employment_count": 4060,
+            "job": "Broadcast Technicians"
+        },
+        {
+            "employment_count": 1750,
+            "job": "Sound Engineering Technicians"
+        },
+        {
+            "employment_count": 4870,
+            "job": "Photographers"
+        },
+        {
+            "employment_count": 2920,
+            "job": "Camera Operators, Television, Video, and Film"
+        },
+        {
+            "employment_count": 4420,
+            "job": "Film and Video Editors"
+        },
+        {
+            "employment_count": 0,
+            "job": "Lighting Technicians and Media and Communication Equipment Workers, All Other"
+        },
+        {
+            "employment_count": 1680,
+            "job": "Chiropractors"
+        },
+        {
+            "employment_count": 9520,
+            "job": "Dentists, General"
+        },
+        {
+            "employment_count": 190,
+            "job": "Oral and Maxillofacial Surgeons"
+        },
+        {
+            "employment_count": 0,
+            "job": "Orthodontists"
+        },
+        {
+            "employment_count": 380,
+            "job": "Dentists, All Other Specialists"
+        },
+        {
+            "employment_count": 4700,
+            "job": "Dietitians and Nutritionists"
+        },
+        {
+            "employment_count": 1980,
+            "job": "Optometrists"
+        },
+        {
+            "employment_count": 21310,
+            "job": "Pharmacists"
+        },
+        {
+            "employment_count": 11470,
+            "job": "Physician Assistants"
+        },
+        {
+            "employment_count": 1070,
+            "job": "Podiatrists"
+        },
+        {
+            "employment_count": 12430,
+            "job": "Occupational Therapists"
+        },
+        {
+            "employment_count": 17790,
+            "job": "Physical Therapists"
+        },
+        {
+            "employment_count": 1190,
+            "job": "Radiation Therapists"
+        },
+        {
+            "employment_count": 1360,
+            "job": "Recreational Therapists"
+        },
+        {
+            "employment_count": 6650,
+            "job": "Respiratory Therapists"
+        },
+        {
+            "employment_count": 13240,
+            "job": "Speech-Language Pathologists"
+        },
+        {
+            "employment_count": 370,
+            "job": "Exercise Physiologists"
+        },
+        {
+            "employment_count": 890,
+            "job": "Therapists, All Other"
+        },
+        {
+            "employment_count": 3430,
+            "job": "Veterinarians"
+        },
+        {
+            "employment_count": 174210,
+            "job": "Registered Nurses"
+        },
+        {
+            "employment_count": 1620,
+            "job": "Nurse Anesthetists"
+        },
+        {
+            "employment_count": 410,
+            "job": "Nurse Midwives"
+        },
+        {
+            "employment_count": 13910,
+            "job": "Nurse Practitioners"
+        },
+        {
+            "employment_count": 680,
+            "job": "Audiologists"
+        },
+        {
+            "employment_count": 2190,
+            "job": "Anesthesiologists"
+        },
+        {
+            "employment_count": 3820,
+            "job": "Family Medicine Physicians"
+        },
+        {
+            "employment_count": 0,
+            "job": "General Internal Medicine Physicians"
+        },
+        {
+            "employment_count": 1750,
+            "job": "Obstetricians and Gynecologists"
+        },
+        {
+            "employment_count": 3310,
+            "job": "Pediatricians, General"
+        },
+        {
+            "employment_count": 3860,
+            "job": "Psychiatrists"
+        },
+        {
+            "employment_count": 41540,
+            "job": "Physicians, All Other; and Ophthalmologists, Except Pediatric"
+        },
+        {
+            "employment_count": 2600,
+            "job": "Surgeons, Except Ophthalmologists"
+        },
+        {
+            "employment_count": 12010,
+            "job": "Dental Hygienists"
+        },
+        {
+            "employment_count": 3010,
+            "job": "Acupuncturists and Healthcare Diagnosing or Treating Practitioners, All Other"
+        },
+        {
+            "employment_count": 18490,
+            "job": "Clinical Laboratory Technologists and Technicians"
+        },
+        {
+            "employment_count": 2860,
+            "job": "Cardiovascular Technologists and Technicians"
+        },
+        {
+            "employment_count": 6260,
+            "job": "Diagnostic Medical Sonographers"
+        },
+        {
+            "employment_count": 1040,
+            "job": "Nuclear Medicine Technologists"
+        },
+        {
+            "employment_count": 12060,
+            "job": "Radiologic Technologists and Technicians"
+        },
+        {
+            "employment_count": 2510,
+            "job": "Magnetic Resonance Imaging Technologists"
+        },
+        {
+            "employment_count": 17560,
+            "job": "Emergency Medical Technicians and Paramedics"
+        },
+        {
+            "employment_count": 910,
+            "job": "Dietetic Technicians"
+        },
+        {
+            "employment_count": 20910,
+            "job": "Pharmacy Technicians"
+        },
+        {
+            "employment_count": 1680,
+            "job": "Psychiatric Technicians"
+        },
+        {
+            "employment_count": 5760,
+            "job": "Surgical Technologists"
+        },
+        {
+            "employment_count": 4970,
+            "job": "Veterinary Technologists and Technicians"
+        },
+        {
+            "employment_count": 5000,
+            "job": "Ophthalmic Medical Technicians"
+        },
+        {
+            "employment_count": 37110,
+            "job": "Licensed Practical and Licensed Vocational Nurses"
+        },
+        {
+            "employment_count": 3020,
+            "job": "Opticians, Dispensing"
+        },
+        {
+            "employment_count": 260,
+            "job": "Orthotists and Prosthetists"
+        },
+        {
+            "employment_count": 13570,
+            "job": "Medical Dosimetrists, Medical Records Specialists, and Health Technologists and Technicians, All Other"
+        },
+        {
+            "employment_count": 1460,
+            "job": "Athletic Trainers"
+        },
+        {
+            "employment_count": 220,
+            "job": "Genetic Counselors"
+        },
+        {
+            "employment_count": 1120,
+            "job": "Health Information Technologists, Medical Registrars, Surgical Assistants, and Healthcare Practitioners and Technical Workers, All Other"
+        },
+        {
+            "employment_count": 404750,
+            "job": "Home Health and Personal Care Aides"
+        },
+        {
+            "employment_count": 93850,
+            "job": "Nursing Assistants"
+        },
+        {
+            "employment_count": 4100,
+            "job": "Orderlies"
+        },
+        {
+            "employment_count": 4880,
+            "job": "Psychiatric Aides"
+        },
+        {
+            "employment_count": 2410,
+            "job": "Occupational Therapy Assistants"
+        },
+        {
+            "employment_count": 280,
+            "job": "Occupational Therapy Aides"
+        },
+        {
+            "employment_count": 4610,
+            "job": "Physical Therapist Assistants"
+        },
+        {
+            "employment_count": 5700,
+            "job": "Physical Therapist Aides"
+        },
+        {
+            "employment_count": 7440,
+            "job": "Massage Therapists"
+        },
+        {
+            "employment_count": 21780,
+            "job": "Dental Assistants"
+        },
+        {
+            "employment_count": 35380,
+            "job": "Medical Assistants"
+        },
+        {
+            "employment_count": 4310,
+            "job": "Medical Equipment Preparers"
+        },
+        {
+            "employment_count": 2420,
+            "job": "Medical Transcriptionists"
+        },
+        {
+            "employment_count": 1650,
+            "job": "Pharmacy Aides"
+        },
+        {
+            "employment_count": 4110,
+            "job": "Veterinary Assistants and Laboratory Animal Caretakers"
+        },
+        {
+            "employment_count": 7760,
+            "job": "Phlebotomists"
+        },
+        {
+            "employment_count": 7220,
+            "job": "Healthcare Support Workers, All Other"
+        },
+        {
+            "employment_count": 2150,
+            "job": "First-Line Supervisors of Correctional Officers"
+        },
+        {
+            "employment_count": 14430,
+            "job": "First-Line Supervisors of Police and Detectives"
+        },
+        {
+            "employment_count": 4220,
+            "job": "First-Line Supervisors of Firefighting and Prevention Workers"
+        },
+        {
+            "employment_count": 8750,
+            "job": "Miscellaneous First-Line Supervisors, Protective Service Workers"
+        },
+        {
+            "employment_count": 14900,
+            "job": "Firefighters"
+        },
+        {
+            "employment_count": 2010,
+            "job": "Fire Inspectors and Investigators"
+        },
+        {
+            "employment_count": 2860,
+            "job": "Bailiffs"
+        },
+        {
+            "employment_count": 21830,
+            "job": "Correctional Officers and Jailers"
+        },
+        {
+            "employment_count": 7990,
+            "job": "Detectives and Criminal Investigators"
+        },
+        {
+            "employment_count": 100,
+            "job": "Fish and Game Wardens"
+        },
+        {
+            "employment_count": 860,
+            "job": "Parking Enforcement Workers"
+        },
+        {
+            "employment_count": 57870,
+            "job": "Police and Sheriff's Patrol Officers"
+        },
+        {
+            "employment_count": 1520,
+            "job": "Transit and Railroad Police"
+        },
+        {
+            "employment_count": 490,
+            "job": "Animal Control Workers"
+        },
+        {
+            "employment_count": 1410,
+            "job": "Private Detectives and Investigators"
+        },
+        {
+            "employment_count": 90,
+            "job": "Gambling Surveillance Officers and Gambling Investigators"
+        },
+        {
+            "employment_count": 132220,
+            "job": "Security Guards"
+        },
+        {
+            "employment_count": 14270,
+            "job": "Crossing Guards and Flaggers"
+        },
+        {
+            "employment_count": 9010,
+            "job": "Lifeguards, Ski Patrol, and Other Recreational Protective Service Workers"
+        },
+        {
+            "employment_count": 4300,
+            "job": "Transportation Security Screeners"
+        },
+        {
+            "employment_count": 17010,
+            "job": "School Bus Monitors and Protective Service Workers, All Other"
+        },
+        {
+            "employment_count": 17040,
+            "job": "Chefs and Head Cooks"
+        },
+        {
+            "employment_count": 45690,
+            "job": "First-Line Supervisors of Food Preparation and Serving Workers"
+        },
+        {
+            "employment_count": 12120,
+            "job": "Cooks, Fast Food"
+        },
+        {
+            "employment_count": 14650,
+            "job": "Cooks, Institution and Cafeteria"
+        },
+        {
+            "employment_count": 61910,
+            "job": "Cooks, Restaurant"
+        },
+        {
+            "employment_count": 12780,
+            "job": "Cooks, Short Order"
+        },
+        {
+            "employment_count": 1010,
+            "job": "Cooks, All Other"
+        },
+        {
+            "employment_count": 72160,
+            "job": "Food Preparation Workers"
+        },
+        {
+            "employment_count": 38740,
+            "job": "Bartenders"
+        },
+        {
+            "employment_count": 187240,
+            "job": "Fast Food and Counter Workers"
+        },
+        {
+            "employment_count": 157350,
+            "job": "Waiters and Waitresses"
+        },
+        {
+            "employment_count": 20060,
+            "job": "Food Servers, Nonrestaurant"
+        },
+        {
+            "employment_count": 39060,
+            "job": "Dining Room and Cafeteria Attendants and Bartender Helpers"
+        },
+        {
+            "employment_count": 29850,
+            "job": "Dishwashers"
+        },
+        {
+            "employment_count": 20090,
+            "job": "Hosts and Hostesses, Restaurant, Lounge, and Coffee Shop"
+        },
+        {
+            "employment_count": 4770,
+            "job": "Food Preparation and Serving Related Workers, All Other"
+        },
+        {
+            "employment_count": 11230,
+            "job": "First-Line Supervisors of Housekeeping and Janitorial Workers"
+        },
+        {
+            "employment_count": 5270,
+            "job": "First-Line Supervisors of Landscaping, Lawn Service, and Groundskeeping Workers"
+        },
+        {
+            "employment_count": 189330,
+            "job": "Janitors and Cleaners, Except Maids and Housekeeping Cleaners"
+        },
+        {
+            "employment_count": 48070,
+            "job": "Maids and Housekeeping Cleaners"
+        },
+        {
+            "employment_count": 0,
+            "job": "Building Cleaning Workers, All Other"
+        },
+        {
+            "employment_count": 4340,
+            "job": "Pest Control Workers"
+        },
+        {
+            "employment_count": 47030,
+            "job": "Landscaping and Groundskeeping Workers"
+        },
+        {
+            "employment_count": 0,
+            "job": "Pesticide Handlers, Sprayers, and Applicators, Vegetation"
+        },
+        {
+            "employment_count": 2000,
+            "job": "Tree Trimmers and Pruners"
+        },
+        {
+            "employment_count": 3200,
+            "job": "Grounds Maintenance Workers, All Other"
+        },
+        {
+            "employment_count": 170,
+            "job": "First-Line Supervisors of Gambling Services Workers"
+        },
+        {
+            "employment_count": 17940,
+            "job": "First-Line Supervisors of Personal Service and Entertainment and Recreation Workers, Except Gambling Services"
+        },
+        {
+            "employment_count": 1340,
+            "job": "Animal Trainers"
+        },
+        {
+            "employment_count": 12040,
+            "job": "Animal Caretakers"
+        },
+        {
+            "employment_count": 430,
+            "job": "Gambling and Sports Book Writers and Runners"
+        },
+        {
+            "employment_count": 590,
+            "job": "Motion Picture Projectionists"
+        },
+        {
+            "employment_count": 11140,
+            "job": "Ushers, Lobby Attendants, and Ticket Takers"
+        },
+        {
+            "employment_count": 17090,
+            "job": "Amusement and Recreation Attendants"
+        },
+        {
+            "employment_count": 1530,
+            "job": "Costume Attendants"
+        },
+        {
+            "employment_count": 1790,
+            "job": "Locker Room, Coatroom, and Dressing Room Attendants"
+        },
+        {
+            "employment_count": 420,
+            "job": "Entertainment Attendants and Related Workers, All Other"
+        },
+        {
+            "employment_count": 870,
+            "job": "Funeral Attendants"
+        },
+        {
+            "employment_count": 1650,
+            "job": "Morticians, Undertakers, and Funeral Arrangers"
+        },
+        {
+            "employment_count": 1760,
+            "job": "Barbers"
+        },
+        {
+            "employment_count": 32300,
+            "job": "Hairdressers, Hairstylists, and Cosmetologists"
+        },
+        {
+            "employment_count": 490,
+            "job": "Makeup Artists, Theatrical and Performance"
+        },
+        {
+            "employment_count": 25360,
+            "job": "Manicurists and Pedicurists"
+        },
+        {
+            "employment_count": 1960,
+            "job": "Shampooers"
+        },
+        {
+            "employment_count": 6630,
+            "job": "Skincare Specialists"
+        },
+        {
+            "employment_count": 3640,
+            "job": "Baggage Porters and Bellhops"
+        },
+        {
+            "employment_count": 6540,
+            "job": "Concierges"
+        },
+        {
+            "employment_count": 2770,
+            "job": "Tour and Travel Guides"
+        },
+        {
+            "employment_count": 51960,
+            "job": "Childcare Workers"
+        },
+        {
+            "employment_count": 26740,
+            "job": "Exercise Trainers and Group Fitness Instructors"
+        },
+        {
+            "employment_count": 30430,
+            "job": "Recreation Workers"
+        },
+        {
+            "employment_count": 5830,
+            "job": "Residential Advisors"
+        },
+        {
+            "employment_count": 3100,
+            "job": "Crematory Operators and Personal Care and Service Workers, All Other"
+        },
+        {
+            "employment_count": 63960,
+            "job": "First-Line Supervisors of Retail Sales Workers"
+        },
+        {
+            "employment_count": 23350,
+            "job": "First-Line Supervisors of Non-Retail Sales Workers"
+        },
+        {
+            "employment_count": 195370,
+            "job": "Cashiers"
+        },
+        {
+            "employment_count": 410,
+            "job": "Gambling Change Persons and Booth Cashiers"
+        },
+        {
+            "employment_count": 19740,
+            "job": "Counter and Rental Clerks"
+        },
+        {
+            "employment_count": 8090,
+            "job": "Parts Salespersons"
+        },
+        {
+            "employment_count": 290640,
+            "job": "Retail Salespersons"
+        },
+        {
+            "employment_count": 20860,
+            "job": "Advertising Sales Agents"
+        },
+        {
+            "employment_count": 22940,
+            "job": "Insurance Sales Agents"
+        },
+        {
+            "employment_count": 72850,
+            "job": "Securities, Commodities, and Financial Services Sales Agents"
+        },
+        {
+            "employment_count": 5900,
+            "job": "Travel Agents"
+        },
+        {
+            "employment_count": 81130,
+            "job": "Sales Representatives of Services, Except Advertising, Insurance, Financial Services, and Travel"
+        },
+        {
+            "employment_count": 13920,
+            "job": "Sales Representatives, Wholesale and Manufacturing, Technical and Scientific Products"
+        },
+        {
+            "employment_count": 84870,
+            "job": "Sales Representatives, Wholesale and Manufacturing, Except Technical and Scientific Products"
+        },
+        {
+            "employment_count": 6020,
+            "job": "Demonstrators and Product Promoters"
+        },
+        {
+            "employment_count": 0,
+            "job": "Models"
+        },
+        {
+            "employment_count": 2220,
+            "job": "Real Estate Brokers"
+        },
+        {
+            "employment_count": 5640,
+            "job": "Real Estate Sales Agents"
+        },
+        {
+            "employment_count": 2470,
+            "job": "Sales Engineers"
+        },
+        {
+            "employment_count": 5110,
+            "job": "Telemarketers"
+        },
+        {
+            "employment_count": 500,
+            "job": "Door-to-Door Sales Workers, News and Street Vendors, and Related Workers"
+        },
+        {
+            "employment_count": 6540,
+            "job": "Sales and Related Workers, All Other"
+        },
+        {
+            "employment_count": 108760,
+            "job": "First-Line Supervisors of Office and Administrative Support Workers"
+        },
+        {
+            "employment_count": 3350,
+            "job": "Switchboard Operators, Including Answering Service"
+        },
+        {
+            "employment_count": 580,
+            "job": "Telephone Operators"
+        },
+        {
+            "employment_count": 70,
+            "job": "Communications Equipment Operators, All Other"
+        },
+        {
+            "employment_count": 11610,
+            "job": "Bill and Account Collectors"
+        },
+        {
+            "employment_count": 37730,
+            "job": "Billing and Posting Clerks"
+        },
+        {
+            "employment_count": 99420,
+            "job": "Bookkeeping, Accounting, and Auditing Clerks"
+        },
+        {
+            "employment_count": 90,
+            "job": "Gambling Cage Workers"
+        },
+        {
+            "employment_count": 7820,
+            "job": "Payroll and Timekeeping Clerks"
+        },
+        {
+            "employment_count": 4710,
+            "job": "Procurement Clerks"
+        },
+        {
+            "employment_count": 25140,
+            "job": "Tellers"
+        },
+        {
+            "employment_count": 1940,
+            "job": "Financial Clerks, All Other"
+        },
+        {
+            "employment_count": 6080,
+            "job": "Brokerage Clerks"
+        },
+        {
+            "employment_count": 220,
+            "job": "Correspondence Clerks"
+        },
+        {
+            "employment_count": 7480,
+            "job": "Court, Municipal, and License Clerks"
+        },
+        {
+            "employment_count": 1980,
+            "job": "Credit Authorizers, Checkers, and Clerks"
+        },
+        {
+            "employment_count": 155420,
+            "job": "Customer Service Representatives"
+        },
+        {
+            "employment_count": 7950,
+            "job": "Eligibility Interviewers, Government Programs"
+        },
+        {
+            "employment_count": 10280,
+            "job": "File Clerks"
+        },
+        {
+            "employment_count": 8510,
+            "job": "Hotel, Motel, and Resort Desk Clerks"
+        },
+        {
+            "employment_count": 15220,
+            "job": "Interviewers, Except Eligibility and Loan"
+        },
+        {
+            "employment_count": 5970,
+            "job": "Library Assistants, Clerical"
+        },
+        {
+            "employment_count": 7570,
+            "job": "Loan Interviewers and Clerks"
+        },
+        {
+            "employment_count": 1940,
+            "job": "New Accounts Clerks"
+        },
+        {
+            "employment_count": 8640,
+            "job": "Order Clerks"
+        },
+        {
+            "employment_count": 10510,
+            "job": "Human Resources Assistants, Except Payroll and Timekeeping"
+        },
+        {
+            "employment_count": 108270,
+            "job": "Receptionists and Information Clerks"
+        },
+        {
+            "employment_count": 9230,
+            "job": "Reservation and Transportation Ticket Agents and Travel Clerks"
+        },
+        {
+            "employment_count": 5120,
+            "job": "Information and Record Clerks, All Other"
+        },
+        {
+            "employment_count": 7790,
+            "job": "Cargo and Freight Agents"
+        },
+        {
+            "employment_count": 8420,
+            "job": "Couriers and Messengers"
+        },
+        {
+            "employment_count": 6060,
+            "job": "Public Safety Telecommunicators"
+        },
+        {
+            "employment_count": 13670,
+            "job": "Dispatchers, Except Police, Fire, and Ambulance"
+        },
+        {
+            "employment_count": 1670,
+            "job": "Meter Readers, Utilities"
+        },
+        {
+            "employment_count": 5710,
+            "job": "Postal Service Clerks"
+        },
+        {
+            "employment_count": 22590,
+            "job": "Postal Service Mail Carriers"
+        },
+        {
+            "employment_count": 10530,
+            "job": "Postal Service Mail Sorters, Processors, and Processing Machine Operators"
+        },
+        {
+            "employment_count": 37230,
+            "job": "Production, Planning, and Expediting Clerks"
+        },
+        {
+            "employment_count": 33150,
+            "job": "Shipping, Receiving, and Inventory Clerks"
+        },
+        {
+            "employment_count": 3950,
+            "job": "Weighers, Measurers, Checkers, and Samplers, Recordkeeping"
+        },
+        {
+            "employment_count": 89860,
+            "job": "Executive Secretaries and Executive Administrative Assistants"
+        },
+        {
+            "employment_count": 15910,
+            "job": "Legal Secretaries and Administrative Assistants"
+        },
+        {
+            "employment_count": 14460,
+            "job": "Medical Secretaries and Administrative Assistants"
+        },
+        {
+            "employment_count": 160640,
+            "job": "Secretaries and Administrative Assistants, Except Legal, Medical, and Executive"
+        },
+        {
+            "employment_count": 13870,
+            "job": "Data Entry Keyers"
+        },
+        {
+            "employment_count": 10220,
+            "job": "Word Processors and Typists"
+        },
+        {
+            "employment_count": 780,
+            "job": "Desktop Publishers"
+        },
+        {
+            "employment_count": 10470,
+            "job": "Insurance Claims and Policy Processing Clerks"
+        },
+        {
+            "employment_count": 8450,
+            "job": "Mail Clerks and Mail Machine Operators, Except Postal Service"
+        },
+        {
+            "employment_count": 184170,
+            "job": "Office Clerks, General"
+        },
+        {
+            "employment_count": 5140,
+            "job": "Office Machine Operators, Except Computer"
+        },
+        {
+            "employment_count": 1170,
+            "job": "Proofreaders and Copy Markers"
+        },
+        {
+            "employment_count": 310,
+            "job": "Statistical Assistants"
+        },
+        {
+            "employment_count": 18150,
+            "job": "Office and Administrative Support Workers, All Other"
+        },
+        {
+            "employment_count": 230,
+            "job": "First-Line Supervisors of Farming, Fishing, and Forestry Workers"
+        },
+        {
+            "employment_count": 200,
+            "job": "Agricultural Inspectors"
+        },
+        {
+            "employment_count": 2980,
+            "job": "Farmworkers and Laborers, Crop, Nursery, and Greenhouse"
+        },
+        {
+            "employment_count": 330,
+            "job": "Farmworkers, Farm, Ranch, and Aquacultural Animals"
+        },
+        {
+            "employment_count": 0,
+            "job": "Agricultural Workers, All Other"
+        },
+        {
+            "employment_count": 110,
+            "job": "Forest and Conservation Workers"
+        },
+        {
+            "employment_count": 23010,
+            "job": "First-Line Supervisors of Construction Trades and Extraction Workers"
+        },
+        {
+            "employment_count": 610,
+            "job": "Boilermakers"
+        },
+        {
+            "employment_count": 3690,
+            "job": "Brickmasons and Blockmasons"
+        },
+        {
+            "employment_count": 910,
+            "job": "Stonemasons"
+        },
+        {
+            "employment_count": 48240,
+            "job": "Carpenters"
+        },
+        {
+            "employment_count": 1180,
+            "job": "Carpet Installers"
+        },
+        {
+            "employment_count": 480,
+            "job": "Floor Layers, Except Carpet, Wood, and Hard Tiles"
+        },
+        {
+            "employment_count": 230,
+            "job": "Floor Sanders and Finishers"
+        },
+        {
+            "employment_count": 3580,
+            "job": "Tile and Stone Setters"
+        },
+        {
+            "employment_count": 6790,
+            "job": "Cement Masons and Concrete Finishers"
+        },
+        {
+            "employment_count": 0,
+            "job": "Terrazzo Workers and Finishers"
+        },
+        {
+            "employment_count": 66210,
+            "job": "Construction Laborers"
+        },
+        {
+            "employment_count": 2160,
+            "job": "Paving, Surfacing, and Tamping Equipment Operators"
+        },
+        {
+            "employment_count": 0,
+            "job": "Pile Driver Operators"
+        },
+        {
+            "employment_count": 11270,
+            "job": "Operating Engineers and Other Construction Equipment Operators"
+        },
+        {
+            "employment_count": 6230,
+            "job": "Drywall and Ceiling Tile Installers"
+        },
+        {
+            "employment_count": 630,
+            "job": "Tapers"
+        },
+        {
+            "employment_count": 44330,
+            "job": "Electricians"
+        },
+        {
+            "employment_count": 3100,
+            "job": "Glaziers"
+        },
+        {
+            "employment_count": 490,
+            "job": "Insulation Workers, Floor, Ceiling, and Wall"
+        },
+        {
+            "employment_count": 370,
+            "job": "Insulation Workers, Mechanical"
+        },
+        {
+            "employment_count": 14940,
+            "job": "Painters, Construction and Maintenance"
+        },
+        {
+            "employment_count": 520,
+            "job": "Paperhangers"
+        },
+        {
+            "employment_count": 560,
+            "job": "Pipelayers"
+        },
+        {
+            "employment_count": 28350,
+            "job": "Plumbers, Pipefitters, and Steamfitters"
+        },
+        {
+            "employment_count": 1360,
+            "job": "Plasterers and Stucco Masons"
+        },
+        {
+            "employment_count": 1380,
+            "job": "Reinforcing Iron and Rebar Workers"
+        },
+        {
+            "employment_count": 3800,
+            "job": "Roofers"
+        },
+        {
+            "employment_count": 6530,
+            "job": "Sheet Metal Workers"
+        },
+        {
+            "employment_count": 4900,
+            "job": "Structural Iron and Steel Workers"
+        },
+        {
+            "employment_count": 1030,
+            "job": "Solar Photovoltaic Installers"
+        },
+        {
+            "employment_count": 1750,
+            "job": "Helpers--Brickmasons, Blockmasons, Stonemasons, and Tile and Marble Setters"
+        },
+        {
+            "employment_count": 1820,
+            "job": "Helpers--Carpenters"
+        },
+        {
+            "employment_count": 5750,
+            "job": "Helpers--Electricians"
+        },
+        {
+            "employment_count": 0,
+            "job": "Helpers--Painters, Paperhangers, Plasterers, and Stucco Masons"
+        },
+        {
+            "employment_count": 3290,
+            "job": "Helpers--Pipelayers, Plumbers, Pipefitters, and Steamfitters"
+        },
+        {
+            "employment_count": 0,
+            "job": "Helpers--Roofers"
+        },
+        {
+            "employment_count": 1420,
+            "job": "Helpers, Construction Trades, All Other"
+        },
+        {
+            "employment_count": 8120,
+            "job": "Construction and Building Inspectors"
+        },
+        {
+            "employment_count": 4960,
+            "job": "Elevator and Escalator Installers and Repairers"
+        },
+        {
+            "employment_count": 1050,
+            "job": "Fence Erectors"
+        },
+        {
+            "employment_count": 4160,
+            "job": "Hazardous Materials Removal Workers"
+        },
+        {
+            "employment_count": 6390,
+            "job": "Highway Maintenance Workers"
+        },
+        {
+            "employment_count": 2540,
+            "job": "Rail-Track Laying and Maintenance Equipment Operators"
+        },
+        {
+            "employment_count": 1660,
+            "job": "Septic Tank Servicers and Sewer Pipe Cleaners"
+        },
+        {
+            "employment_count": 1060,
+            "job": "Miscellaneous Construction and Related Workers"
+        },
+        {
+            "employment_count": 1830,
+            "job": "Excavating and Loading Machine and Dragline Operators, Surface Mining"
+        },
+        {
+            "employment_count": 520,
+            "job": "Earth Drillers, Except Oil and Gas; and Explosives Workers, Ordnance Handling Experts, and Blasters"
+        },
+        {
+            "employment_count": 120,
+            "job": "Underground Mining Machine Operators and Extraction Workers, All Other"
+        },
+        {
+            "employment_count": 25550,
+            "job": "First-Line Supervisors of Mechanics, Installers, and Repairers"
+        },
+        {
+            "employment_count": 6560,
+            "job": "Computer, Automated Teller, and Office Machine Repairers"
+        },
+        {
+            "employment_count": 1030,
+            "job": "Radio, Cellular, and Tower Equipment Installers and Repairers"
+        },
+        {
+            "employment_count": 9340,
+            "job": "Telecommunications Equipment Installers and Repairers, Except Line Installers"
+        },
+        {
+            "employment_count": 470,
+            "job": "Avionics Technicians"
+        },
+        {
+            "employment_count": 600,
+            "job": "Electric Motor, Power Tool, and Related Repairers"
+        },
+        {
+            "employment_count": 680,
+            "job": "Electrical and Electronics Installers and Repairers, Transportation Equipment"
+        },
+        {
+            "employment_count": 1850,
+            "job": "Electrical and Electronics Repairers, Commercial and Industrial Equipment"
+        },
+        {
+            "employment_count": 2300,
+            "job": "Electrical and Electronics Repairers, Powerhouse, Substation, and Relay"
+        },
+        {
+            "employment_count": 1100,
+            "job": "Electronic Equipment Installers and Repairers, Motor Vehicles"
+        },
+        {
+            "employment_count": 1670,
+            "job": "Audiovisual Equipment Installers and Repairers"
+        },
+        {
+            "employment_count": 5070,
+            "job": "Security and Fire Alarm Systems Installers"
+        },
+        {
+            "employment_count": 4530,
+            "job": "Aircraft Mechanics and Service Technicians"
+        },
+        {
+            "employment_count": 7430,
+            "job": "Automotive Body and Related Repairers"
+        },
+        {
+            "employment_count": 750,
+            "job": "Automotive Glass Installers and Repairers"
+        },
+        {
+            "employment_count": 30770,
+            "job": "Automotive Service Technicians and Mechanics"
+        },
+        {
+            "employment_count": 13070,
+            "job": "Bus and Truck Mechanics and Diesel Engine Specialists"
+        },
+        {
+            "employment_count": 90,
+            "job": "Farm Equipment Mechanics and Service Technicians"
+        },
+        {
+            "employment_count": 3380,
+            "job": "Mobile Heavy Equipment Mechanics, Except Engines"
+        },
+        {
+            "employment_count": 1080,
+            "job": "Rail Car Repairers"
+        },
+        {
+            "employment_count": 670,
+            "job": "Motorboat Mechanics and Service Technicians"
+        },
+        {
+            "employment_count": 370,
+            "job": "Motorcycle Mechanics"
+        },
+        {
+            "employment_count": 920,
+            "job": "Outdoor Power Equipment and Other Small Engine Mechanics"
+        },
+        {
+            "employment_count": 680,
+            "job": "Bicycle Repairers"
+        },
+        {
+            "employment_count": 160,
+            "job": "Recreational Vehicle Service Technicians"
+        },
+        {
+            "employment_count": 3940,
+            "job": "Tire Repairers and Changers"
+        },
+        {
+            "employment_count": 930,
+            "job": "Mechanical Door Repairers"
+        },
+        {
+            "employment_count": 3350,
+            "job": "Control and Valve Installers and Repairers, Except Mechanical Door"
+        },
+        {
+            "employment_count": 18880,
+            "job": "Heating, Air Conditioning, and Refrigeration Mechanics and Installers"
+        },
+        {
+            "employment_count": 2050,
+            "job": "Home Appliance Repairers"
+        },
+        {
+            "employment_count": 11130,
+            "job": "Industrial Machinery Mechanics"
+        },
+        {
+            "employment_count": 1940,
+            "job": "Maintenance Workers, Machinery"
+        },
+        {
+            "employment_count": 820,
+            "job": "Millwrights"
+        },
+        {
+            "employment_count": 3220,
+            "job": "Electrical Power-Line Installers and Repairers"
+        },
+        {
+            "employment_count": 11510,
+            "job": "Telecommunications Line Installers and Repairers"
+        },
+        {
+            "employment_count": 420,
+            "job": "Camera and Photographic Equipment Repairers"
+        },
+        {
+            "employment_count": 2170,
+            "job": "Medical Equipment Repairers"
+        },
+        {
+            "employment_count": 550,
+            "job": "Musical Instrument Repairers and Tuners"
+        },
+        {
+            "employment_count": 460,
+            "job": "Watch and Clock Repairers"
+        },
+        {
+            "employment_count": 650,
+            "job": "Precision Instrument and Equipment Repairers, All Other"
+        },
+        {
+            "employment_count": 101340,
+            "job": "Maintenance and Repair Workers, General"
+        },
+        {
+            "employment_count": 1620,
+            "job": "Coin, Vending, and Amusement Machine Servicers and Repairers"
+        },
+        {
+            "employment_count": 130,
+            "job": "Commercial Divers"
+        },
+        {
+            "employment_count": 890,
+            "job": "Locksmiths and Safe Repairers"
+        },
+        {
+            "employment_count": 630,
+            "job": "Riggers"
+        },
+        {
+            "employment_count": 850,
+            "job": "Signal and Track Switch Repairers"
+        },
+        {
+            "employment_count": 5260,
+            "job": "Helpers--Installation, Maintenance, and Repair Workers"
+        },
+        {
+            "employment_count": 7660,
+            "job": "Installation, Maintenance, and Repair Workers, All Other"
+        },
+        {
+            "employment_count": 20920,
+            "job": "First-Line Supervisors of Production and Operating Workers"
+        },
+        {
+            "employment_count": 100,
+            "job": "Aircraft Structure, Surfaces, Rigging, and Systems Assemblers"
+        },
+        {
+            "employment_count": 240,
+            "job": "Coil Winders, Tapers, and Finishers"
+        },
+        {
+            "employment_count": 8620,
+            "job": "Electrical, Electronic, and Electromechanical Assemblers, Except Coil Winders, Tapers, and Finishers"
+        },
+        {
+            "employment_count": 270,
+            "job": "Engine and Other Machine Assemblers"
+        },
+        {
+            "employment_count": 1950,
+            "job": "Structural Metal Fabricators and Fitters"
+        },
+        {
+            "employment_count": 200,
+            "job": "Fiberglass Laminators and Fabricators"
+        },
+        {
+            "employment_count": 26220,
+            "job": "Miscellaneous Assemblers and Fabricators"
+        },
+        {
+            "employment_count": 11320,
+            "job": "Bakers"
+        },
+        {
+            "employment_count": 7910,
+            "job": "Butchers and Meat Cutters"
+        },
+        {
+            "employment_count": 2990,
+            "job": "Meat, Poultry, and Fish Cutters and Trimmers"
+        },
+        {
+            "employment_count": 850,
+            "job": "Slaughterers and Meat Packers"
+        },
+        {
+            "employment_count": 740,
+            "job": "Food and Tobacco Roasting, Baking, and Drying Machine Operators and Tenders"
+        },
+        {
+            "employment_count": 7060,
+            "job": "Food Batchmakers"
+        },
+        {
+            "employment_count": 1280,
+            "job": "Food Cooking Machine Operators and Tenders"
+        },
+        {
+            "employment_count": 820,
+            "job": "Food Processing Workers, All Other"
+        },
+        {
+            "employment_count": 2010,
+            "job": "Extruding and Drawing Machine Setters, Operators, and Tenders, Metal and Plastic"
+        },
+        {
+            "employment_count": 290,
+            "job": "Forging Machine Setters, Operators, and Tenders, Metal and Plastic"
+        },
+        {
+            "employment_count": 750,
+            "job": "Rolling Machine Setters, Operators, and Tenders, Metal and Plastic"
+        },
+        {
+            "employment_count": 4100,
+            "job": "Cutting, Punching, and Press Machine Setters, Operators, and Tenders, Metal and Plastic"
+        },
+        {
+            "employment_count": 1810,
+            "job": "Grinding, Lapping, Polishing, and Buffing Machine Tool Setters, Operators, and Tenders, Metal and Plastic"
+        },
+        {
+            "employment_count": 790,
+            "job": "Lathe and Turning Machine Tool Setters, Operators, and Tenders, Metal and Plastic"
+        },
+        {
+            "employment_count": 320,
+            "job": "Milling and Planing Machine Setters, Operators, and Tenders, Metal and Plastic"
+        },
+        {
+            "employment_count": 6960,
+            "job": "Machinists"
+        },
+        {
+            "employment_count": 230,
+            "job": "Metal-Refining Furnace Operators and Tenders"
+        },
+        {
+            "employment_count": 60,
+            "job": "Pourers and Casters, Metal"
+        },
+        {
+            "employment_count": 100,
+            "job": "Model Makers, Metal and Plastic"
+        },
+        {
+            "employment_count": 410,
+            "job": "Foundry Mold and Coremakers"
+        },
+        {
+            "employment_count": 2860,
+            "job": "Molding, Coremaking, and Casting Machine Setters, Operators, and Tenders, Metal and Plastic"
+        },
+        {
+            "employment_count": 1630,
+            "job": "Multiple Machine Tool Setters, Operators, and Tenders, Metal and Plastic"
+        },
+        {
+            "employment_count": 960,
+            "job": "Tool and Die Makers"
+        },
+        {
+            "employment_count": 7330,
+            "job": "Welders, Cutters, Solderers, and Brazers"
+        },
+        {
+            "employment_count": 500,
+            "job": "Welding, Soldering, and Brazing Machine Setters, Operators, and Tenders"
+        },
+        {
+            "employment_count": 320,
+            "job": "Heat Treating Equipment Setters, Operators, and Tenders, Metal and Plastic"
+        },
+        {
+            "employment_count": 0,
+            "job": "Layout Workers, Metal and Plastic"
+        },
+        {
+            "employment_count": 880,
+            "job": "Plating Machine Setters, Operators, and Tenders, Metal and Plastic"
+        },
+        {
+            "employment_count": 0,
+            "job": "Tool Grinders, Filers, and Sharpeners"
+        },
+        {
+            "employment_count": 320,
+            "job": "Metal Workers and Plastic Workers, All Other"
+        },
+        {
+            "employment_count": 1700,
+            "job": "Prepress Technicians and Workers"
+        },
+        {
+            "employment_count": 7790,
+            "job": "Printing Press Operators"
+        },
+        {
+            "employment_count": 2560,
+            "job": "Print Binding and Finishing Workers"
+        },
+        {
+            "employment_count": 17090,
+            "job": "Laundry and Dry-Cleaning Workers"
+        },
+        {
+            "employment_count": 1800,
+            "job": "Pressers, Textile, Garment, and Related Materials"
+        },
+        {
+            "employment_count": 9620,
+            "job": "Sewing Machine Operators"
+        },
+        {
+            "employment_count": 500,
+            "job": "Shoe and Leather Workers and Repairers"
+        },
+        {
+            "employment_count": 0,
+            "job": "Shoe Machine Operators and Tenders"
+        },
+        {
+            "employment_count": 440,
+            "job": "Sewers, Hand"
+        },
+        {
+            "employment_count": 1690,
+            "job": "Tailors, Dressmakers, and Custom Sewers"
+        },
+        {
+            "employment_count": 240,
+            "job": "Textile Bleaching and Dyeing Machine Operators and Tenders"
+        },
+        {
+            "employment_count": 780,
+            "job": "Textile Cutting Machine Setters, Operators, and Tenders"
+        },
+        {
+            "employment_count": 730,
+            "job": "Textile Knitting and Weaving Machine Setters, Operators, and Tenders"
+        },
+        {
+            "employment_count": 220,
+            "job": "Textile Winding, Twisting, and Drawing Out Machine Setters, Operators, and Tenders"
+        },
+        {
+            "employment_count": 1350,
+            "job": "Fabric and Apparel Patternmakers"
+        },
+        {
+            "employment_count": 630,
+            "job": "Upholsterers"
+        },
+        {
+            "employment_count": 720,
+            "job": "Textile, Apparel, and Furnishings Workers, All Other"
+        },
+        {
+            "employment_count": 3610,
+            "job": "Cabinetmakers and Bench Carpenters"
+        },
+        {
+            "employment_count": 920,
+            "job": "Furniture Finishers"
+        },
+        {
+            "employment_count": 300,
+            "job": "Sawing Machine Setters, Operators, and Tenders, Wood"
+        },
+        {
+            "employment_count": 1340,
+            "job": "Woodworking Machine Setters, Operators, and Tenders, Except Sawing"
+        },
+        {
+            "employment_count": 50,
+            "job": "Woodworkers, All Other"
+        },
+        {
+            "employment_count": 320,
+            "job": "Power Distributors and Dispatchers"
+        },
+        {
+            "employment_count": 1410,
+            "job": "Power Plant Operators"
+        },
+        {
+            "employment_count": 3480,
+            "job": "Stationary Engineers and Boiler Operators"
+        },
+        {
+            "employment_count": 4230,
+            "job": "Water and Wastewater Treatment Plant and System Operators"
+        },
+        {
+            "employment_count": 290,
+            "job": "Chemical Plant and System Operators"
+        },
+        {
+            "employment_count": 420,
+            "job": "Gas Plant Operators"
+        },
+        {
+            "employment_count": 370,
+            "job": "Petroleum Pump System Operators, Refinery Operators, and Gaugers"
+        },
+        {
+            "employment_count": 270,
+            "job": "Plant and System Operators, All Other"
+        },
+        {
+            "employment_count": 4140,
+            "job": "Chemical Equipment Operators and Tenders"
+        },
+        {
+            "employment_count": 1270,
+            "job": "Separating, Filtering, Clarifying, Precipitating, and Still Machine Setters, Operators, and Tenders"
+        },
+        {
+            "employment_count": 1300,
+            "job": "Crushing, Grinding, and Polishing Machine Setters, Operators, and Tenders"
+        },
+        {
+            "employment_count": 1290,
+            "job": "Grinding and Polishing Workers, Hand"
+        },
+        {
+            "employment_count": 5610,
+            "job": "Mixing and Blending Machine Setters, Operators, and Tenders"
+        },
+        {
+            "employment_count": 500,
+            "job": "Cutters and Trimmers, Hand"
+        },
+        {
+            "employment_count": 1740,
+            "job": "Cutting and Slicing Machine Setters, Operators, and Tenders"
+        },
+        {
+            "employment_count": 3420,
+            "job": "Extruding, Forming, Pressing, and Compacting Machine Setters, Operators, and Tenders"
+        },
+        {
+            "employment_count": 240,
+            "job": "Furnace, Kiln, Oven, Drier, and Kettle Operators and Tenders"
+        },
+        {
+            "employment_count": 20240,
+            "job": "Inspectors, Testers, Sorters, Samplers, and Weighers"
+        },
+        {
+            "employment_count": 4800,
+            "job": "Jewelers and Precious Stone and Metal Workers"
+        },
+        {
+            "employment_count": 1100,
+            "job": "Dental Laboratory Technicians"
+        },
+        {
+            "employment_count": 1080,
+            "job": "Medical Appliance Technicians"
+        },
+        {
+            "employment_count": 1740,
+            "job": "Ophthalmic Laboratory Technicians"
+        },
+        {
+            "employment_count": 20240,
+            "job": "Packaging and Filling Machine Operators and Tenders"
+        },
+        {
+            "employment_count": 600,
+            "job": "Painting, Coating, and Decorating Workers"
+        },
+        {
+            "employment_count": 3130,
+            "job": "Coating, Painting, and Spraying Machine Setters, Operators, and Tenders"
+        },
+        {
+            "employment_count": 1060,
+            "job": "Photographic Process Workers and Processing Machine Operators"
+        },
+        {
+            "employment_count": 2800,
+            "job": "Computer Numerically Controlled Tool Operators"
+        },
+        {
+            "employment_count": 600,
+            "job": "Computer Numerically Controlled Tool Programmers"
+        },
+        {
+            "employment_count": 200,
+            "job": "Adhesive Bonding Machine Operators and Tenders"
+        },
+        {
+            "employment_count": 740,
+            "job": "Cleaning, Washing, and Metal Pickling Equipment Operators and Tenders"
+        },
+        {
+            "employment_count": 160,
+            "job": "Cooling and Freezing Equipment Operators and Tenders"
+        },
+        {
+            "employment_count": 450,
+            "job": "Etchers and Engravers"
+        },
+        {
+            "employment_count": 1190,
+            "job": "Molders, Shapers, and Casters, Except Metal and Plastic"
+        },
+        {
+            "employment_count": 3060,
+            "job": "Paper Goods Machine Setters, Operators, and Tenders"
+        },
+        {
+            "employment_count": 5650,
+            "job": "Helpers--Production Workers"
+        },
+        {
+            "employment_count": 7160,
+            "job": "Production Workers, All Other"
+        },
+        {
+            "employment_count": 410,
+            "job": "Aircraft Cargo Handling Supervisors"
+        },
+        {
+            "employment_count": 29530,
+            "job": "First-Line Supervisors of Transportation and Material Moving Workers, Except Aircraft Cargo Handling Supervisors"
+        },
+        {
+            "employment_count": 9960,
+            "job": "Airline Pilots, Copilots, and Flight Engineers"
+        },
+        {
+            "employment_count": 1080,
+            "job": "Commercial Pilots"
+        },
+        {
+            "employment_count": 470,
+            "job": "Airfield Operations Specialists"
+        },
+        {
+            "employment_count": 16540,
+            "job": "Flight Attendants"
+        },
+        {
+            "employment_count": 970,
+            "job": "Ambulance Drivers and Attendants, Except Emergency Medical Technicians"
+        },
+        {
+            "employment_count": 21030,
+            "job": "Driver/Sales Workers"
+        },
+        {
+            "employment_count": 69680,
+            "job": "Heavy and Tractor-Trailer Truck Drivers"
+        },
+        {
+            "employment_count": 53800,
+            "job": "Light Truck Drivers"
+        },
+        {
+            "employment_count": 22520,
+            "job": "Bus Drivers, Transit and Intercity"
+        },
+        {
+            "employment_count": 60470,
+            "job": "Passenger Vehicle Drivers, Except Bus Drivers, Transit and Intercity"
+        },
+        {
+            "employment_count": 3520,
+            "job": "Motor Vehicle Operators, All Other"
+        },
+        {
+            "employment_count": 610,
+            "job": "Locomotive Engineers"
+        },
+        {
+            "employment_count": 3920,
+            "job": "Railroad Conductors and Yardmasters"
+        },
+        {
+            "employment_count": 3630,
+            "job": "Subway and Streetcar Operators"
+        },
+        {
+            "employment_count": 210,
+            "job": "Rail Transportation Workers, All Other"
+        },
+        {
+            "employment_count": 1870,
+            "job": "Sailors and Marine Oilers"
+        },
+        {
+            "employment_count": 2340,
+            "job": "Captains, Mates, and Pilots of Water Vessels"
+        },
+        {
+            "employment_count": 180,
+            "job": "Motorboat Operators"
+        },
+        {
+            "employment_count": 570,
+            "job": "Ship Engineers"
+        },
+        {
+            "employment_count": 180,
+            "job": "Bridge and Lock Tenders"
+        },
+        {
+            "employment_count": 16160,
+            "job": "Parking Attendants"
+        },
+        {
+            "employment_count": 9960,
+            "job": "Automotive and Watercraft Service Attendants"
+        },
+        {
+            "employment_count": 1130,
+            "job": "Traffic Technicians"
+        },
+        {
+            "employment_count": 4200,
+            "job": "Transportation Inspectors"
+        },
+        {
+            "employment_count": 3450,
+            "job": "Passenger Attendants"
+        },
+        {
+            "employment_count": 1290,
+            "job": "Aircraft Service Attendants and Transportation Workers, All Other"
+        },
+        {
+            "employment_count": 0,
+            "job": "Conveyor Operators and Tenders"
+        },
+        {
+            "employment_count": 1420,
+            "job": "Crane and Tower Operators"
+        },
+        {
+            "employment_count": 60,
+            "job": "Dredge Operators"
+        },
+        {
+            "employment_count": 40,
+            "job": "Hoist and Winch Operators"
+        },
+        {
+            "employment_count": 21690,
+            "job": "Industrial Truck and Tractor Operators"
+        },
+        {
+            "employment_count": 20710,
+            "job": "Cleaners of Vehicles and Equipment"
+        },
+        {
+            "employment_count": 184050,
+            "job": "Laborers and Freight, Stock, and Material Movers, Hand"
+        },
+        {
+            "employment_count": 1060,
+            "job": "Machine Feeders and Offbearers"
+        },
+        {
+            "employment_count": 46740,
+            "job": "Packers and Packagers, Hand"
+        },
+        {
+            "employment_count": 123580,
+            "job": "Stockers and Order Fillers"
+        },
+        {
+            "employment_count": 130,
+            "job": "Gas Compressor and Gas Pumping Station Operators"
+        },
+        {
+            "employment_count": 380,
+            "job": "Pump Operators, Except Wellhead Pumpers"
+        },
+        {
+            "employment_count": 10240,
+            "job": "Refuse and Recyclable Material Collectors"
+        },
+        {
+            "employment_count": 1680,
+            "job": "Material Moving Workers, All Other"
+        }
+    ]
+}
+
+    ],
+    [
+      {
+        "city": "New York-Newark-Jersey City, NY-NJ-PA",
+        "occ_code": 434
+      },
+      {
+        "code": 422,
+        "errors": {
+          "json": {
+            "occ_code": ["Not a valid string."]
+          }
+        },
+        "status": "Unprocessable Entity"
+      }
+    ],
+
+    [
+      {
+        "city": "Denver-Aurora-Lakewood",
+        "occ_code": "11-9031"
+      },
+      {
+        "Denver-Aurora-Lakewood, CO": [
+          {
+            "employment_count": 400,
+            "job": "Education and Childcare Administrators, Preschool and Daycare"
+          }
+        ],
+        "New York-Newark-Jersey City, NY-NJ-PA": [
+          {
+            "employment_count": 3610,
+            "job": "Education and Childcare Administrators, Preschool and Daycare"
+          }
+        ],
+        "San Francisco-Oakland-Hayward, CA": [
+          {
+            "employment_count": 1610,
+            "job": "Education and Childcare Administrators, Preschool and Daycare"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "city": "Denver-Aurora-Lakewood",
+        "occ_code": "19-407"
+      },
+      {
+        "ERROR": "Please Check the Inputs"
+      }
+    ],
+    [
+      {
+        "city": "Denver-Aurora-Lakewood",
+        "occ_code": "wrc"
+      },
+      {
+        "ERROR": "Please Check the Inputs"
+      }
+    ],
+    [
+      {
+        "city": "Denver-Aurora-Lakewood",
+        "occ_code": ""
+      },
+      {
+        "ERROR": "Please Check the Inputs"
+      }
+    ],
+    [
+      {
+        "city": "Denver-Aurora-Lakewood",
+        "occ_code": 434
+      },
+      {
+        "code": 422,
+        "errors": {
+          "json": {
+            "occ_code": ["Not a valid string."]
+          }
+        },
+        "status": "Unprocessable Entity"
+      }
+    ],
+
+    [
+      {
+        "city": "sverv",
+        "occ_code": "11-9031"
+      },
+      {
+        "Denver-Aurora-Lakewood, CO": [
+          {
+            "employment_count": 400,
+            "job": "Education and Childcare Administrators, Preschool and Daycare"
+          }
+        ],
+        "New York-Newark-Jersey City, NY-NJ-PA": [
+          {
+            "employment_count": 3610,
+            "job": "Education and Childcare Administrators, Preschool and Daycare"
+          }
+        ],
+        "San Francisco-Oakland-Hayward, CA": [
+          {
+            "employment_count": 1610,
+            "job": "Education and Childcare Administrators, Preschool and Daycare"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "city": "sverv",
+        "occ_code": "19-407"
+      },
+      {
+        "ERROR": "Please Check the Inputs"
+      }
+    ],
+    [
+      {
+        "city": "sverv",
+        "occ_code": "wrc"
+      },
+      {
+        "ERROR": "Please Check the Inputs"
+      }
+    ],
+    [
+      {
+        "city": "sverv",
+        "occ_code": ""
+      },
+      {
+        "ERROR": "Please Check the Inputs"
+      }
+    ],
+    [
+      {
+        "city": "sverv",
+        "occ_code": 434
+      },
+      {
+        "code": 422,
+        "errors": {
+          "json": {
+            "occ_code": ["Not a valid string."]
+          }
+        },
+        "status": "Unprocessable Entity"
+      }
+    ],
+
+    [
+      {
+        "city": "",
+        "occ_code": "11-9031"
+      },
+      {
+        "Denver-Aurora-Lakewood, CO": [
+          {
+            "employment_count": 400,
+            "job": "Education and Childcare Administrators, Preschool and Daycare"
+          }
+        ],
+        "New York-Newark-Jersey City, NY-NJ-PA": [
+          {
+            "employment_count": 3610,
+            "job": "Education and Childcare Administrators, Preschool and Daycare"
+          }
+        ],
+        "San Francisco-Oakland-Hayward, CA": [
+          {
+            "employment_count": 1610,
+            "job": "Education and Childcare Administrators, Preschool and Daycare"
+          }
+        ]
+      }
+    ],
+    [
+      {
+        "city": "",
+        "occ_code": "19-407"
+      },
+      {
+        "ERROR": "Please Check the Inputs"
+      }
+    ],
+    [
+      {
+        "city": "",
+        "occ_code": "wrc"
+      },
+      {
+        "ERROR": "Please Check the Inputs"
+      }
+    ],
+    [
+      {
+        "city": "",
+        "occ_code": ""
+      },
+      {
+        "ERROR": "Please Check the Inputs"
+      }
+    ],
+    [
+      {
+        "city": "",
+        "occ_code": 434
+      },
+      {
+        "code": 422,
+        "errors": {
+          "json": {
+            "occ_code": ["Not a valid string."]
+          }
+        },
+        "status": "Unprocessable Entity"
+      }
+    ],
+
+    [
+      {
+        "city": 34534,
+        "occ_code": "11-9031"
+      },
+      {
+        "code": 422,
+        "errors": {
+          "json": {
+            "city": ["Not a valid string."]
+          }
+        },
+        "status": "Unprocessable Entity"
+      }
+    ],
+    [
+      {
+        "city": 34534,
+        "occ_code": "19-407"
+      },
+      {
+        "code": 422,
+        "errors": {
+          "json": {
+            "city": ["Not a valid string."]
+          }
+        },
+        "status": "Unprocessable Entity"
+      }
+    ],
+    [
+      {
+        "city": 34534,
+        "occ_code": "wrc"
+      },
+      {
+        "code": 422,
+        "errors": {
+          "json": {
+            "city": ["Not a valid string."]
+          }
+        },
+        "status": "Unprocessable Entity"
+      }
+    ],
+    [
+      {
+        "city": 34534,
+        "occ_code": ""
+      },
+
+      {
+        "code": 422,
+        "errors": {
+          "json": {
+            "city": ["Not a valid string."]
+          }
+        },
+        "status": "Unprocessable Entity"
+      }
+    ],
+    [
+      {
+        "city": 34534,
+        "occ_code": 434
+      },
+      {
+        "code": 422,
+        "errors": {
+          "json": {
+            "city": ["Not a valid string."]
+          }
+        },
+        "status": "Unprocessable Entity"
+      }
+    ]
+  ]
+}
