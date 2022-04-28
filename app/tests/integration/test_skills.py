@@ -1,8 +1,31 @@
-""" 
-Integration testing script 
-Write the integration tests for the code in skills_resource.py below.
-"""
+import pytest
+from app.app import app
 
+list_send_text = ["asd", "ada23112", "#$$FD99", "res eg\'78y56", "78t i\"ju';", ".;'p[mo8.;[", "", "134;..452@!@#$%^&*(", b"7878dsbh4;.qd4", 798]
+list_expected_text = ["dsa", "21132ada", "99df$$#", "65y87'ge ser", ";'uj\"i t87", "[;.8om[p';.", "", "(*&^%$#@!@254..;431", b"4dq.;4hbsd8787", 897]
 
-def test_reverse_skill_title():
-    pass
+def send_request(app, send_text, data_rev):
+    json_send = {"skill_title": send_text}
+    actual = app.test_client().post('/skills/reverse-skill-title', json=json_send)
+    expected = {"skill_title" : send_text, "reversed_skill_title": data_rev}
+    return actual.json, expected
+
+@pytest.mark.parametrize('send_text, data_rev', list(zip(list_send_text[:-2], list_expected_text[:-2])))          
+def test_integration_reverse_string(app, send_text, data_rev):
+    actual, expected = send_request(app, send_text, data_rev)
+    assert actual == expected
+
+def test_integration_bytes_string_error():
+    error_text = "Object of type bytes is not JSON serializable"
+    try:
+        actual, expected = send_request(app, list_send_text[8], list_expected_text[8])
+    except Exception as error_:
+        print(error_)
+        assert error_text == str(error_)
+
+def test_integration_int_error():
+    error_text = "'int' object is not subscriptable"
+    try:
+        actual, expected = send_request(app, list_send_text[9], list_expected_text[9])
+    except Exception as error_:
+        assert error_text == str(error_)

@@ -1,5 +1,6 @@
 import json
 import csv
+from flask import Response
 
 class DataRetrieval(object):
     def __init__(self):
@@ -24,7 +25,7 @@ class DataRetrieval(object):
             if(not self.data_json_cities.get(row[1]), None):
                 self.data_json_cities[row[1]] = int(row[0],10)
         fp.close()
-        # This code is used to show how the converted JSON file looks
+        # This code is used to show how the converted JSON file looks like
         # fp = open('employment.json','w', encoding='UTF-8')
         # json.dump(self.data_json, fp, indent=4)
         # fp.close()
@@ -91,5 +92,4 @@ class DataRetrieval(object):
             
         #Catches the exceptions and returns them
         except Exception as _e:
-            return {"ERROR" : str(_e)}
-        return ret
+            return Response(response=json.dumps({"ERROR" : str(_e)}), status=418, mimetype='application/json',)
